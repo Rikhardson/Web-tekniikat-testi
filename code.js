@@ -1,7 +1,7 @@
 function changeColor(){
-    let elems = document.querySelectorAll("ul:first-child li");
+    let elems = document.querySelectorAll("body");
 
-    for (constelem of elems) {
+    for (const elem of elems) {
         elem.classList.toggle("colored");
     }
 }
