@@ -1,4 +1,19 @@
+
+body{
+    background-color: antiquewhite;
+}
 .bg-dark {
     --bs-bg-opacity: 1;
     background-color:darkslategrey!important;
 }
+#footer{
+    position: fixed;
+       bottom: 0;
+       width: 100%;
+    }
+    .my-4 {
+        margin-bottom: 0!important;
+    }
+    .border-top {
+        border-top: 0!important;
+    }
