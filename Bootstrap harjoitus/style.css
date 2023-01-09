@@ -2,10 +2,34 @@
 body{
     background-color: antiquewhite;
 }
+h1{
+    text-align: center;
+}
 .bg-dark {
     --bs-bg-opacity: 1;
     background-color:darkslategrey!important;
 }
+.bg-light{
+    background-color: antiquewhite!important;
+}
+.accordion-button:not(.collapsed) {
+    color: #f8f9fa;
+}
+.accordion-button {
+    background-color: darkslategrey!important;
+    color: #f8f9fa;
+}
+.btn-primary {
+    --bs-btn-bg: darkslategrey!important;
+    --bs-btn-border-color: darkslategrey!important;
+    --bs-btn-hover-bg: darkslategrey!important;
+    --bs-btn-hover-border-color: darkslategrey!important;
+    --bs-btn-active-bg: darkslategrey!important;
+    --bs-btn-active-border-color: darkslategrey!important;
+    --bs-btn-disabled-bg: darkslategrey!important;
+    --bs-btn-disabled-border-color: darkslategrey!important;
+}
+
 #footer{
     position: fixed;
        bottom: 0;
@@ -17,3 +41,10 @@ body{
     .border-top {
         border-top: 0!important;
     }
+    #tausta{
+        background-color: antiquewhite;
+    }
+    img{
+        height: 225;
+    }
+    
